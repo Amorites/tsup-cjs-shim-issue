@@ -1,0 +1,24 @@
+{
+    "extends": "./tsconfig.strict.json",
+    "compilerOptions": {
+        "target": "es2017",
+        "module": "esnext",
+        "strictPropertyInitialization": false,
+        "declaration": true,
+        "jsx": "preserve",
+        "importHelpers": true,
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "isolatedModules": true,
+        "resolveJsonModule": true,
+        "sourceMap": true,
+        "baseUrl": ".",
+        "paths": {
+            "/*": ["./*"]
+        },
+        "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
+    },
+    "exclude": ["node_modules"]
+}

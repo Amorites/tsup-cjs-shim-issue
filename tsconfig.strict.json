@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "skipLibCheck": false,
+        "strict": true,
+        "noUncheckedIndexedAccess": true,
+        "noImplicitOverride": true,
+        "useUnknownInCatchVariables": true,
+        "forceConsistentCasingInFileNames": true
+    }
+}

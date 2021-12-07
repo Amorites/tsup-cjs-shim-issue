@@ -1,0 +1,16 @@
+{
+  "name": "tsup-cjs-shim-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "build": "tsup src/index.ts --format cjs --target es2017",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "tsup": "^5.10.1"
+  }
+}
